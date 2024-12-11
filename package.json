@@ -1,6 +1,6 @@
 {
   "name": "spotify-clone",
-  "homepage": "https://yadhugovindc.github.io/spotify-clone/",
+
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "gh-pages": "^6.2.0",
