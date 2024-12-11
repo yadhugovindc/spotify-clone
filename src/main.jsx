@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 import PlayerContextProvider from "./context/PlayerContext.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/spotify-clone">
     <PlayerContextProvider>
       <App />
     </PlayerContextProvider>
